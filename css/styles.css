@@ -1,0 +1,136 @@
+p.a {
+    font-family: inherit
+}
+.body {margin:0px;
+
+}
+.wrapper {
+    width: auto;
+    height: 100vh;
+    background-color: #191c32;
+    color: white;
+    border: none
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand {
+    margin-top: -11px;
+
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+
+
+.menu li {
+    list-style: none;
+
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+
+.menu a:hover {
+    background-color: aqua;
+    color: black;
+    transition: ease-in 0.8s;
+}
+.menu li a:hover {
+    color: black;
+    transition: ease-in 0.8s;
+  }
+  
+
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 3em;
+    color: aqua;
+}
+
+h2 {
+    font-size: 2em;
+    color: aqua;
+}
+
+.download {
+    padding: 10px 15px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 69);
+
+}
+
+.download:hover {
+    background-color: white;
+    box-shadow: none;
+
+}
+
+.main img {
+    width: 200px;
+    border: 5px solid aqua;
+    height: 400px;
+}
+
+.listaskills {
+    list-style: none;
+    line-height: 200%;
+}
+
+.contacto {
+    list-style: none;
+    line-height: 200%;
+    
+}
+.fa-brands{
+    size: 1px;
+}
+
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
